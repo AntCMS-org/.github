@@ -1,8 +1,12 @@
-[![PHPStan](https://github.com/AntCMS-org/AntCMS/actions/workflows/phpstan.yml/badge.svg)](https://github.com/AntCMS-org/AntCMS/actions/workflows/phpstan.yml)
-[![Unit Tests](https://github.com/AntCMS-org/AntCMS/actions/workflows/unittests.yml/badge.svg)](https://github.com/AntCMS-org/AntCMS/actions/workflows/unittests.yml)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/AntCMS-Org/AntCMS/total) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AntCMS-Org/AntCMS/ci.yml)
 
 ## Hi there 👋
 
-This is the official GitHub organization for the AntCMS project, a small, flat-file CMS that's built for simplcity and speed.
+AntCMS is a lightweight, speedy CMS that uses a flat-file structure for it's content. That means no databses - just simple markdown files to write your content!
 
-You can find the repository for AntCMS [here](https://github.com/AntCMS-org/AntCMS)
+It seamlessly and without any configuration on your end will automate generating a sitemap, `robots.txt` file, even will even compress your images without you needing to lift a finger!
+
+### Plugins
+
+- [GitHub-Sync](https://github.com/AntCMS-org/GitHub-Sync) allows you to publish your website content to a GitHub repository and have it automatically pulled down as a source for yout website's content.
+- [Example-Plugin](https://github.com/AntCMS-org/Example-Plugin) is an example plugin which is used as a showcase to developers on how to build our their own custom plugins.
